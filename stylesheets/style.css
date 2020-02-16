@@ -108,6 +108,12 @@ a[href="#"] {
     position: relative;
     /*display: flex;*/
     /*flex-direction: column;*/
+    transition: transform 333ms;
+}
+
+.is-tiny {
+    transform: scale(0.001);
+    transition: transform 0ms;
 }
 
 .detail-image {
