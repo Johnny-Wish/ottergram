@@ -43,7 +43,7 @@ body {
     font-size: 18px;
 }
 
-a[href="#"] {
+a {
     text-decoration: none;
 }
 
