@@ -82,12 +82,10 @@ function addKeyPressHandler() {
     })
 }
 
-function initializeEvents() {
+(function () {
     'use strict';
     var thumbnails = getThumbnailsArray();
     thumbnails.forEach(addThumbClickHandler);
     addKeyPressHandler();
     addDetailClickHandler();
-}
-
-initializeEvents();
+})()
